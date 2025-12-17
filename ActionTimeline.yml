@@ -5,23 +5,23 @@ fields:
   - name: WeaponTimeline
     type: link
     targets: [WeaponTimeline]
-  - name: KillUpper
-  - name: Unknown_70
+  - name: Resident
   - name: Type
   - name: Priority
   - name: Stance
   - name: Slot
   - name: LookAtMode
+  - name: Unknown_70
   - name: ActionTimelineIDMode
   - name: LoadType
   - name: StartAttach
-  - name: ResidentPap
+  - name: Unknown2
   - name: Unknown6
   - name: Unknown1
-  - name: Pause
-  - name: Resident
-  - name: IsMotionCanceledByMoving
-  - name: Unknown2
-  - name: Unknown3
   - name: IsLoop
+  - name: KillUpper
+  - name: IsMotionCanceledByMoving
+  - name: ResidentPap
+  - name: Unknown3
+  - name: Pause
   - name: Unknown4

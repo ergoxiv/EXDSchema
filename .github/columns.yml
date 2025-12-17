@@ -293,6 +293,101 @@ ActionSetting:
     offset: 9
   - type: uint8
     offset: 8
+  - type: packedbool5
+    offset: 61
+  - type: packedbool6
+    offset: 61
+  - type: packedbool7
+    offset: 61
+  - type: packedbool0
+    offset: 62
+  - type: packedbool1
+    offset: 62
+  - type: packedbool2
+    offset: 62
+  - type: uint8
+    offset: 53
+  - type: packedbool3
+    offset: 62
+  - type: packedbool4
+    offset: 62
+  - type: packedbool5
+    offset: 62
+  - type: packedbool6
+    offset: 62
+  - type: uint8
+    offset: 54
+ActionCastTimeline:
+  - type: uint16
+    offset: 0
+  - type: uint16
+    offset: 2
+ActionCastVFX:
+  - type: uint16
+    offset: 0
+ActionCategory:
+  - type: string
+    offset: 0
+ActionComboRoute:
+  - type: string
+    offset: 0
+  - type: int8
+    offset: 18
+  - type: uint16
+    offset: 4
+  - type: uint16
+    offset: 6
+  - type: uint16
+    offset: 8
+  - type: uint16
+    offset: 10
+  - type: uint16
+    offset: 12
+  - type: uint16
+    offset: 14
+  - type: uint16
+    offset: 16
+  - type: packedbool0
+    offset: 19
+ActionComboRouteTransient:
+  - type: string
+    offset: 0
+ActionCostType:
+  - type: packedbool0
+    offset: 0
+ActionIndirection:
+  - type: int32
+    offset: 0
+  - type: int8
+    offset: 8
+  - type: int32
+    offset: 4
+ActionInit:
+  - type: uint8
+    offset: 0
+ActionParam:
+  - type: int16
+    offset: 0
+  - type: int16
+    offset: 2
+ActionProcStatus:
+  - type: uint16
+    offset: 0
+ActionSetting:
+  - type: int32
+    offset: 0
+  - type: int32
+    offset: 4
+  - type: packedbool0
+    offset: 9
+  - type: packedbool1
+    offset: 9
+  - type: packedbool2
+    offset: 9
+  - type: packedbool3
+    offset: 9
+  - type: uint8
+    offset: 8
 ActionTimeline:
   - type: uint8
     offset: 8
